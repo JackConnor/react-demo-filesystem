@@ -1,0 +1,20 @@
+.outer-holder {
+    background-color: #191919;
+    padding: 24px;
+    color: white;
+    height: 500px;
+}
+
+.new-level {
+    margin-left: 16px;
+}
+
+.directory-level {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height .3s ease-in-out;
+}
+
+.directory-level-open {
+    max-height: 500px;
+}
